@@ -1,6 +1,6 @@
-from requests import Request
+from discord.ext import commands
 
-class MyList(Request):
+class MyBot(commands.Bot):
     def __init__(self, args):
         super().__init__(args)
 

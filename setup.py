@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name="lib",  # Required
-    version="0.2",  # Required
+    version="0.3",  # Required
     packages=["lib"],  # Required
-    install_requirements=["requests==2.31.0"],
+    install_requirements=["discord.py==2.3.2"],
 )
