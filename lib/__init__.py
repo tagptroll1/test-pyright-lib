@@ -1,5 +1,6 @@
+from requests import Request
 
-class MyList(list):
+class MyList(Request):
     def __init__(self, args):
         super().__init__(args)
 
